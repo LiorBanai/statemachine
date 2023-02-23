@@ -10,6 +10,7 @@
 		<Authors>LiorBanai</Authors>
 		<Company>LiorBanai</Company>
 		<Product>LiorBanai.StateMachine</Product>
+		<PackageId>LiorBanai.StateMachine</PackageId>
 		<Version>0.1.0</Version>
 		<LangVersion>latest</LangVersion>
 		<IncludeSymbols>true</IncludeSymbols>
