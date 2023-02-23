@@ -18,7 +18,13 @@
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<CodeAnalysisRuleSet>../Analyzers.Productive.ruleset</CodeAnalysisRuleSet>	
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/LiorBanai/statemachine</RepositoryUrl>
 		<description>
 			Hierarchical state machine with fluent definition syntax
@@ -37,7 +43,15 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Update="JetBrains.Annotations" Version="2022.3.1" />
+		<PackageReference Include="Microsoft.Build.Tasks.Git" Version="1.1.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Update="JetBrains.Annotations" Version="2022.3.1" />
 	</ItemGroup>
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net48' or '$(TargetFramework)' == 'net471' ">
 		<PackageReference Include="PolySharp" Version="1.12.1">
@@ -55,10 +69,6 @@
 		<NoWarn>$(NoWarn),SA0001</NoWarn>
 	</PropertyGroup>
 
-	<!-- license -->
-	<ItemGroup>
-		<None Include="..\..\LICENSE" Pack="true" PackagePath="" />
-	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Machine\Reports\" />
 	</ItemGroup>
