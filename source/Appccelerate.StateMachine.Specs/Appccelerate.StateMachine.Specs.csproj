@@ -1,29 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-	  <TargetFrameworks>net48;net471;net7.0-windows;net6.0-windows</TargetFrameworks>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net48;net471;net7.0-windows;net6.0-windows</TargetFrameworks>
+	</PropertyGroup>
 
-  <PropertyGroup>
-	<Title>Appccelerate.StateMachine.Specification</Title>
-	<Copyright>Copyright ©  2008-2019</Copyright>
-	<Authors>Appccelerate team</Authors>
-	<Company>Appccelerate</Company>
-	<Product>Appccelerate</Product>
-  </PropertyGroup>
+	<PropertyGroup>
+		<Title>LiorBanai.StateMachine.Specification</Title>
+		<Copyright>Copyright ©  2023</Copyright>
+		<Authors>LiorBanai</Authors>
+		<Company>LiorBanai</Company>
+		<Product>LiorBanai</Product>
+	</PropertyGroup>
 
-  <ItemGroup>
-	<None Remove="stylecop.json" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Remove="stylecop.json" />
+	</ItemGroup>
 
-  <ItemGroup>
-	<AdditionalFiles Include="stylecop.json" />
-  </ItemGroup>
+	<ItemGroup>
+		<AdditionalFiles Include="stylecop.json" />
+	</ItemGroup>
 
-  <ItemGroup>
-	<ProjectReference Include="..\Appccelerate.StateMachine\Appccelerate.StateMachine.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Appccelerate.StateMachine\Appccelerate.StateMachine.csproj" />
+	</ItemGroup>
 
-  <Import Project="..\Appccelerate.StateMachine.Specs.props" />  
-  
+	<Import Project="..\Appccelerate.StateMachine.Specs.props" />
+
 </Project>
