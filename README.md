@@ -1,5 +1,4 @@
-I'm working on moving the documention from www.appccelerate.com (where it is not up-to-date :-( ) to here because it is less time consuming to update the documentation.
-
+[![.NET Core Desktop](https://github.com/LiorBanai/statemachine/actions/workflows/dotnet-core-desktop.yml/badge.svg)](https://github.com/LiorBanai/statemachine/actions/workflows/dotnet-core-desktop.yml)
 ## Features
 
 - use enums, ints, strings or your own class for states and events - resulting in single class state machines.
