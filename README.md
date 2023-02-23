@@ -5,8 +5,8 @@
 <a href="https://github.com/LiorBanai/statemachine/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/LiorBanai/statemachine"  alt="License"/>
 </a>
-[![Nuget](https://img.shields.io/nuget/v/statemachine)](https://www.nuget.org/packages/statemachine/)
-[![Nuget](https://img.shields.io/nuget/dt/statemachine)](https://www.nuget.org/packages/statemachine/) [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?business=MCP57TBRAAVXA&no_recurring=0&item_name=Support+Open+source+Projects+%28Analogy+Log+Viewer%2C+HDF5-CSHARP%2C+etc%29&currency_code=USD) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F77IVQT)
+[![Nuget](https://img.shields.io/nuget/v/LiorBanai.StateMachine)](https://www.nuget.org/packages/LiorBanai.StateMachine/)
+[![Nuget](https://img.shields.io/nuget/dt/LiorBanai.StateMachine)](https://www.nuget.org/packages/LiorBanai.StateMachine/) [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?business=MCP57TBRAAVXA&no_recurring=0&item_name=Support+Open+source+Projects+%28Analogy+Log+Viewer%2C+HDF5-CSHARP%2C+etc%29&currency_code=USD) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F77IVQT)
 
 ## Features
 
