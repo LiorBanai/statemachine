@@ -1,27 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+	  <TargetFrameworks>net48;net471;net7.0-windows;net6.0-windows</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>Appccelerate.StateMachine.Specification</Title>
+	<Title>Appccelerate.StateMachine.Specification</Title>
 	<Copyright>Copyright ©  2008-2019</Copyright>
-    <Authors>Appccelerate team</Authors>
-    <Company>Appccelerate</Company>
+	<Authors>Appccelerate team</Authors>
+	<Company>Appccelerate</Company>
 	<Product>Appccelerate</Product>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="stylecop.json" />
+	<None Remove="stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="stylecop.json" />
+	<AdditionalFiles Include="stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Appccelerate.StateMachine\Appccelerate.StateMachine.csproj" />
+	<ProjectReference Include="..\Appccelerate.StateMachine\Appccelerate.StateMachine.csproj" />
   </ItemGroup>
 
   <Import Project="..\Appccelerate.StateMachine.Specs.props" />  
