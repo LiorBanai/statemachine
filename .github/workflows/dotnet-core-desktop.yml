@@ -18,8 +18,8 @@ jobs:
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     env:
-      Solution_Name: StateMachine.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: StateMachine.UnitTests\StateMachine.UnitTests.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Solution_Name: StateMachine.sln
+      Test_Project_Path: StateMachine.UnitTests\StateMachine.UnitTests.csproj
      
     steps:
     - name: Checkout
@@ -72,7 +72,7 @@ jobs:
           name: 'artifactory'
       - name: 'Dotnet NuGet Push'
         run: |
-          Get-ChildItem .\artifactory\StateMachine\bin\Release -Filter *.nupkg |
+          Get-ChildItem .\artifactory\ -Filter *.nupkg |
           Where-Object { !$_.Name.Contains('preview') } |
           ForEach-Object { dotnet nuget push $_ --source https://api.nuget.org/v3/index.json --skip-duplicate --api-key ${{secrets.NUGET_API_KEY}} }
         shell: pwsh
@@ -86,7 +86,7 @@ jobs:
 
       - name: 'Dotnet NuGet Push to github registry'     
         run: |
-          Get-ChildItem .\artifactory\StateMachine\bin\Release -Filter *.nupkg |
+          Get-ChildItem .\artifactory\ -Filter *.nupkg |
           Where-Object { !$_.Name.Contains('preview') } |
           ForEach-Object { nuget push $_  -Source "GPR" -SkipDuplicate }
           
