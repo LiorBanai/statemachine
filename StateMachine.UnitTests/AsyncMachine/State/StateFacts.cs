@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.State
-{
-    using System;
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.States;
-    using Xunit;
+using System;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.States;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.State
+{
     public class StateFacts
     {
         [Fact]

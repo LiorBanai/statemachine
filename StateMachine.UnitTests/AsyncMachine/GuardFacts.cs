@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine
-{
-    using System;
-    using System.Threading.Tasks;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using StateMachine.Infrastructure;
-    using Xunit;
+using System;
+using System.Threading.Tasks;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.Infrastructure;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine
+{
     public class GuardFacts
     {
         [Fact]

@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Syntax
-{
-    using System;
-    using System.Diagnostics.CodeAnalysis;
-    using StateMachine.Machine;
-    using Xunit;
+using System;
+using System.Diagnostics.CodeAnalysis;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Syntax
+{
     /// <summary>
     /// Tests the syntax.
     /// </summary>

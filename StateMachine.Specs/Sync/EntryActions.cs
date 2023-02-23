@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System;
-    using System.Collections.Generic;
-    using FluentAssertions;
-    using Machine;
-    using Xbehave;
+using System;
+using System.Collections.Generic;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class EntryActions
     {
         private const int State = 1;

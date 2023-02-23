@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Contexts
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.Text;
-    using States;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Text;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine.Contexts
+{
     /// <summary>
     /// Provides context information during a transition.
     /// </summary>

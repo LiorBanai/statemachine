@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using Infrastructure;
-    using States;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using StateMachine.Infrastructure;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Extensions for a state machine have to implement this interface.
     /// </summary>

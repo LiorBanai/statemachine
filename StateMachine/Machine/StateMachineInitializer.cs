@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using States;
+using System;
+using System.Collections.Generic;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Responsible for entering the initial state of the state machine.
     /// All states up in the hierarchy are entered, too.

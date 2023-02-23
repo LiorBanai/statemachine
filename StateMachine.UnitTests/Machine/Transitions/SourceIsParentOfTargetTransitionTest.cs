@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Transitions
-{
-    using FakeItEasy;
-    using StateMachine.Machine.States;
-    using Xunit;
+using FakeItEasy;
+using StateMachine.Machine.States;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Transitions
+{
     public class SourceIsParentOfTargetTransitionTest : SuccessfulTransitionWithExecutedActionsTestBase
     {
         private readonly IStateDefinition<States, Events> intermediate;

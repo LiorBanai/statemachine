@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using Infrastructure;
-    using States;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using StateMachine.Infrastructure;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
 
+namespace StateMachine.Machine
+{
     public interface IExtensionInternal<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

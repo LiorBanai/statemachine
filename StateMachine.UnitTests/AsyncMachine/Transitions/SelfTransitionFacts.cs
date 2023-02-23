@@ -16,13 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Transitions
-{
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using FakeItEasy;
-    using Xunit;
+using System.Threading.Tasks;
+using FakeItEasy;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.Transitions
+{
     public class SelfTransitionFacts : SuccessfulTransitionWithExecutedActionsFactsBase
     {
         public SelfTransitionFacts()

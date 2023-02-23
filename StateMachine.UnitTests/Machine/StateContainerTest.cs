@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.Infrastructure;
-    using StateMachine.Machine;
-    using Xunit;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     public class StateContainerTest
     {
         [Fact]

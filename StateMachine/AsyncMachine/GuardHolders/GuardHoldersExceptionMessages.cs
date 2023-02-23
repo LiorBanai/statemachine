@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.GuardHolders
-{
-    using System.Globalization;
+using System.Globalization;
 
+namespace StateMachine.AsyncMachine.GuardHolders
+{
     /// <summary>
     /// Holds all exception messages.
     /// </summary>

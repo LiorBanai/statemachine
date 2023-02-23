@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using States;
+using System;
+using System.Collections.Generic;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine
+{
     /// <summary>
     /// Generates a report of the state machine.
     /// </summary>

@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Transitions
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using States;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine.Transitions
+{
     /// <summary>
     /// Manages the transitions of a state.
     /// </summary>

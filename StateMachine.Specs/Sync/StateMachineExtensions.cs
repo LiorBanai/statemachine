@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using FakeItEasy;
-    using Machine;
-    using Xbehave;
+using FakeItEasy;
+using StateMachine.Machine;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class StateMachineExtensions
     {
         [Scenario]

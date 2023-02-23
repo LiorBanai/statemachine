@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System;
-    using System.Globalization;
-    using System.Linq;
-    using FluentAssertions;
-    using Machine;
-    using Xbehave;
+using System;
+using System.Globalization;
+using System.Linq;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class HierarchicalTransitions
     {
         [Scenario]

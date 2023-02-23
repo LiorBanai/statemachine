@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using States;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine
+{
     public class ImplicitAddIfNotAvailableStateDefinitionDictionary<TState, TEvent> : IImplicitAddIfNotAvailableStateDefinitionDictionary<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

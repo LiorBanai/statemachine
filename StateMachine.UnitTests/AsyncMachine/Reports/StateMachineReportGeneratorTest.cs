@@ -15,15 +15,16 @@
 //   limitations under the License.
 // </copyright>
 //-------------------------------------------------------------------------------
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Reports
-{
-    using System;
-    using System.Collections.Generic;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.Reports;
-    using Xunit;
 
+using System;
+using System.Collections.Generic;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.Reports;
+using Xunit;
+
+namespace StateMachine.UnitTests.AsyncMachine.Reports
+{
     public class StateMachineReportGeneratorTest
     {
         public static IEnumerable<object[]> StateMachineInstantiationProvider =>

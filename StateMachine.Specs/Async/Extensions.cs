@@ -14,13 +14,13 @@
 //   limitations under the License.
 // </copyright>
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using AsyncMachine;
-    using AsyncMachine.States;
-    using FakeItEasy;
-    using Xbehave;
+using FakeItEasy;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.States;
+using Xbehave;
 
+namespace StateMachine.Specs.Async
+{
     public class Extensions
     {
         private const string Name = "machine";

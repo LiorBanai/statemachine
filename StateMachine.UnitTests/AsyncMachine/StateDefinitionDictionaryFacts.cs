@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.States;
-    using Xunit;
+using System;
+using System.Collections.Generic;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.States;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine
+{
     public class StateDefinitionDictionaryFacts
     {
         [Fact]

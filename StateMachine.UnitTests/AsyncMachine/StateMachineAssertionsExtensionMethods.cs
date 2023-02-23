@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine
-{
-    using System;
-    using FluentAssertions.Execution;
-    using FluentAssertions.Primitives;
-    using StateMachine.AsyncMachine.States;
-    using StateMachine.AsyncMachine.Transitions;
+using System;
+using FluentAssertions.Execution;
+using FluentAssertions.Primitives;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
 
+namespace StateMachine.UnitTests.AsyncMachine
+{
     public static class StateMachineAssertionsExtensionMethods
     {
         public static void BeSuccessfulTransitionResultWithNewState<TStates, TEvents>(this ObjectAssertions assertions, IStateDefinition<TStates, TEvents> expectedNewState)

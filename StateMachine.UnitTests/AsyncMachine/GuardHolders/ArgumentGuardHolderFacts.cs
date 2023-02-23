@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.GuardHolders
-{
-    using System;
-    using System.Threading.Tasks;
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine.GuardHolders;
-    using Xunit;
+using System;
+using System.Threading.Tasks;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.AsyncMachine.GuardHolders;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.GuardHolders
+{
     public class ArgumentGuardHolderFacts
     {
         [Fact]

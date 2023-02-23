@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.States
-{
-    using System;
+using System;
 
+namespace StateMachine.Machine.States
+{
     public interface IStateLogic<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

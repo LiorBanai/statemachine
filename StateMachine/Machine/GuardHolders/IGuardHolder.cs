@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.GuardHolders
+namespace StateMachine.Machine.GuardHolders
 {
     /// <summary>
     /// Holds a guard.

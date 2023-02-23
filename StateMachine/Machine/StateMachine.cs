@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using Events;
-    using Infrastructure;
-    using States;
+using System;
+using StateMachine.Infrastructure;
+using StateMachine.Machine.Events;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Base implementation of a state machine.
     /// </summary>

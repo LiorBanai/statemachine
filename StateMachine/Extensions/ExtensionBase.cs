@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Extensions
-{
-    using System;
-    using System.Collections.Generic;
-    using Infrastructure;
-    using Machine;
-    using Machine.States;
-    using Machine.Transitions;
+using System;
+using System.Collections.Generic;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
 
+namespace StateMachine.Extensions
+{
     /// <summary>
     /// Base class for state machine extensions with empty implementation.
     /// </summary>

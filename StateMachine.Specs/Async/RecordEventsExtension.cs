@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using AsyncMachine;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine;
 
+namespace StateMachine.Specs.Async
+{
     public class RecordEventsExtension : AsyncExtensionBase<int, int>
         {
             public RecordEventsExtension()

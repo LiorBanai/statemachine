@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using ActionHolders;
-    using Contexts;
-    using Events;
-    using GuardHolders;
-    using States;
+using System;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.Contexts;
+using StateMachine.Machine.Events;
+using StateMachine.Machine.GuardHolders;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Standard implementation of the state machine factory.
     /// </summary>

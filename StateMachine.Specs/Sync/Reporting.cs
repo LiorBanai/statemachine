@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System.Collections.Generic;
-    using FakeItEasy;
-    using Machine;
-    using Machine.States;
-    using Xbehave;
+using System.Collections.Generic;
+using FakeItEasy;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class Reporting
     {
         [Scenario]

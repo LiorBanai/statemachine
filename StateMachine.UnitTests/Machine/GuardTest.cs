@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using FluentAssertions;
-    using StateMachine.Infrastructure;
-    using StateMachine.Machine;
-    using Xunit;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     /// <summary>
     /// Tests the guard feature of the <see cref="StateMachine"/>.
     /// </summary>

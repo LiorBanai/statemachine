@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using FluentAssertions;
-    using Machine;
-    using Xbehave;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class Initialization
     {
         private const int TestState = 1;

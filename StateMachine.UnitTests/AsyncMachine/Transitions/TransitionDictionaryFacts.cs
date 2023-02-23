@@ -16,19 +16,19 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Transitions
-{
-    using System;
-    using System.Linq;
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.ActionHolders;
-    using StateMachine.AsyncMachine.GuardHolders;
-    using StateMachine.AsyncMachine.States;
-    using StateMachine.AsyncMachine.Transitions;
-    using Xunit;
+using System;
+using System.Linq;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.ActionHolders;
+using StateMachine.AsyncMachine.GuardHolders;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.Transitions
+{
     public class TransitionDictionaryFacts
     {
         [Fact]

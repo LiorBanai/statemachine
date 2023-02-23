@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using FluentAssertions;
-    using Xbehave;
+using System.Threading.Tasks;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using Xbehave;
 
+namespace StateMachine.Specs.Async
+{
     public class Transitions
     {
         private const int SourceState = 1;

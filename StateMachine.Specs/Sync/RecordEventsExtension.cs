@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System.Collections.Generic;
-    using Machine;
-    using StateMachine.Extensions;
+using System.Collections.Generic;
+using StateMachine.Extensions;
+using StateMachine.Machine;
 
+namespace StateMachine.Specs.Sync
+{
     public class RecordEventsExtension : ExtensionBase<int, int>
     {
         public RecordEventsExtension()

@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Transitions
-{
-    using System;
+using System;
 
+namespace StateMachine.AsyncMachine.Transitions
+{
     /// <summary>
     /// Represents the result of a transition.
     /// </summary>

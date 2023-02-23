@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
+using System;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Interface to execute actions on all extensions of the event broker.
     /// </summary>

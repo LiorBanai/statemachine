@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Transitions
-{
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.Machine;
-    using StateMachine.Machine.Transitions;
-    using Xunit;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.Machine;
+using StateMachine.Machine.Transitions;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Transitions
+{
     public class GuardsTransitionTest : TransitionTestBase
     {
         public GuardsTransitionTest()

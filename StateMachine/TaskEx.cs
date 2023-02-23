@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
-{
-    using System.Threading.Tasks;
+using System.Threading.Tasks;
 
+namespace StateMachine
+{
     internal static class TaskEx
     {
         public static readonly Task Completed = Task.FromResult(0);

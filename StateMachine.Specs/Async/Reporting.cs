@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using System.Collections.Generic;
-    using AsyncMachine;
-    using AsyncMachine.States;
-    using FakeItEasy;
-    using Xbehave;
+using System.Collections.Generic;
+using FakeItEasy;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.States;
+using Xbehave;
 
+namespace StateMachine.Specs.Async
+{
     public class Reporting
     {
         [Scenario]

@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.GuardHolders
-{
-    using System.Threading.Tasks;
+using System.Threading.Tasks;
 
+namespace StateMachine.AsyncMachine.GuardHolders
+{
     /// <summary>
     /// Holds a guard.
     /// </summary>

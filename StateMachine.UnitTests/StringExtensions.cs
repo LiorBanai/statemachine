@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts
+namespace StateMachine.UnitTests
 {
     internal static class StringExtensions
     {

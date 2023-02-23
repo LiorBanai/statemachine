@@ -16,16 +16,16 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using Extensions;
-    using Machine;
-    using Machine.Events;
-    using Persistence;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using StateMachine.Extensions;
+using StateMachine.Machine;
+using StateMachine.Machine.Events;
+using StateMachine.Persistence;
 
+namespace StateMachine
+{
     /// <summary>
     /// A passive state machine.
     /// This state machine reacts to events on the current thread.

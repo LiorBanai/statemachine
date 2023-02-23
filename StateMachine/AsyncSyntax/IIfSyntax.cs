@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncSyntax
-{
-    using System;
-    using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;
 
+namespace StateMachine.AsyncSyntax
+{
     /// <summary>
     /// Defines the If syntax.
     /// </summary>

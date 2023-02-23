@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Persistence
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using Infrastructure;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using StateMachine.Infrastructure;
 
+namespace StateMachine.Persistence
+{
     public interface IAsyncStateMachineSaver<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

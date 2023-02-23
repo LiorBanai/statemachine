@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Globalization;
-    using States;
+using System;
+using System.Globalization;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Holds all exception messages.
     /// </summary>

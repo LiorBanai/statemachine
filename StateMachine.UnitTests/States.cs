@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts
+namespace StateMachine.UnitTests
 {
     /// <summary>
     /// The states used in the test state machines

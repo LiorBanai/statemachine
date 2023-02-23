@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine
-{
-    using System;
-    using FakeItEasy;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.GuardHolders;
-    using StateMachine.AsyncMachine.States;
+using System;
+using FakeItEasy;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.GuardHolders;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.UnitTests.AsyncMachine
+{
     public static class Builder<TState, TEvent>
             where TState : IComparable
             where TEvent : IComparable

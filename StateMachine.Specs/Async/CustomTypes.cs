@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using System;
-    using AsyncMachine;
-    using FluentAssertions;
-    using Xbehave;
+using System;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using Xbehave;
 
+namespace StateMachine.Specs.Async
+{
     //// see http://www.appccelerate.com/statemachinecustomtypes.html for an explanation why states and events have to be IComparable
     //// and not IEquatable.
     public class CustomTypes

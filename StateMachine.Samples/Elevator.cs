@@ -1,7 +1,7 @@
-namespace Appccelerate.StateMachine.Samples
-{
-    using Appccelerate.StateMachine.Machine;
+using StateMachine.Machine;
 
+namespace StateMachine.Samples
+{
     public class Elevator
     {
         private readonly PassiveStateMachine<States, Events> elevator;

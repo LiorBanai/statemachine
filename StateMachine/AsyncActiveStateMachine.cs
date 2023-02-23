@@ -14,17 +14,17 @@
 //   limitations under the License.
 // </copyright>
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using System.Collections.Concurrent;
-    using System.Linq;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using AsyncMachine.Events;
-    using Persistence;
+using System;
+using System.Collections.Concurrent;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.Events;
+using StateMachine.Persistence;
 
+namespace StateMachine
+{
     public class AsyncActiveStateMachine<TState, TEvent> : IAsyncStateMachine<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

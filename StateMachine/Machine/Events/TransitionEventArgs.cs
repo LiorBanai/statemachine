@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Events
-{
-    using System;
-    using System.Globalization;
+using System;
+using System.Globalization;
 
+namespace StateMachine.Machine.Events
+{
     /// <summary>
     /// Event arguments providing a transition context.
     /// </summary>

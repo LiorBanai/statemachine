@@ -16,14 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Transitions
-{
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using FakeItEasy;
-    using StateMachine.AsyncMachine.States;
-    using Xunit;
+using System.Threading.Tasks;
+using FakeItEasy;
+using StateMachine.AsyncMachine.States;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.Transitions
+{
     public class HierarchicalTransitionFacts : SuccessfulTransitionWithExecutedActionsFactsBase
     {
         private readonly IStateDefinition<States, Events> root;

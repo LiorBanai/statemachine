@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncSyntax
+namespace StateMachine.AsyncSyntax
 {
     public interface IHierarchySyntax<in TState>
     {

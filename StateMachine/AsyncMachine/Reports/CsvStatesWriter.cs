@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Reports
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-    using States;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine.Reports
+{
     /// <summary>
     /// Writes the states of a state machine to a stream as csv.
     /// </summary>

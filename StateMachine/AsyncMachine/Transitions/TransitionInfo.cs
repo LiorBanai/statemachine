@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Transitions
-{
-    using System;
-    using System.Collections.Generic;
-    using ActionHolders;
-    using GuardHolders;
-    using States;
+using System;
+using System.Collections.Generic;
+using StateMachine.AsyncMachine.ActionHolders;
+using StateMachine.AsyncMachine.GuardHolders;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine.Transitions
+{
     /// <summary>
     /// Describes a transition.
     /// </summary>

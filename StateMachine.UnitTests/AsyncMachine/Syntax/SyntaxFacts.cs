@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Syntax
-{
-    using System;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Threading.Tasks;
-    using StateMachine.AsyncMachine;
-    using Xunit;
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.Syntax
+{
     public class SyntaxFacts
     {
         /// <summary>

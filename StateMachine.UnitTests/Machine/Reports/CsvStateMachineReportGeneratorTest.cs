@@ -16,16 +16,16 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Reports
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using FluentAssertions;
-    using StateMachine.Machine;
-    using StateMachine.Machine.Reports;
-    using Xunit;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using FluentAssertions;
+using StateMachine.Machine;
+using StateMachine.Machine.Reports;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Reports
+{
     public class CsvStateMachineReportGeneratorTest
     {
         /// <summary>

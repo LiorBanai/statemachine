@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using FluentAssertions;
-    using StateMachine.Machine;
-    using Xunit;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     /// <summary>
     /// Tests that entry and exit actions are executed correctly.
     /// </summary>

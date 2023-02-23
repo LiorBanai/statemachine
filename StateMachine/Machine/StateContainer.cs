@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using Infrastructure;
+using System;
+using System.Collections.Generic;
+using StateMachine.Infrastructure;
 
+namespace StateMachine.Machine
+{
     public class StateContainer<TState, TEvent> :
         IExtensionHost<TState, TEvent>,
         IStateMachineInformation<TState, TEvent>,

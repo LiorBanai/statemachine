@@ -16,16 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Transitions
-{
-    using System;
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using Xunit;
+using System;
+using System.Threading.Tasks;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.Transitions
+{
     public class ExceptionThrowingGuardTransitionFacts : TransitionFactsBase
     {
         private Exception exception;

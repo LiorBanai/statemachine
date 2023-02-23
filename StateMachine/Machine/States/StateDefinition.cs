@@ -16,14 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.States
+using System;
+using System.Collections.Generic;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.Transitions;
+
+namespace StateMachine.Machine.States
 {
-    using System;
-    using System.Collections.Generic;
-
-    using ActionHolders;
-    using Transitions;
-
     /// <summary>
     /// A state of the state machine.
     /// A state can be a sub-state or super-state of another state.

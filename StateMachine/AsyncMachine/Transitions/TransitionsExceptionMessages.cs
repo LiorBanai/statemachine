@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Transitions
-{
-    using System;
-    using System.Globalization;
-    using States;
+using System;
+using System.Globalization;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine.Transitions
+{
     /// <summary>
     /// Holds all exception messages.
     /// </summary>

@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using AsyncMachine.Events;
-    using Persistence;
+using System;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.Events;
+using StateMachine.Persistence;
 
+namespace StateMachine
+{
     /// <summary>
     /// A state machine.
     /// </summary>

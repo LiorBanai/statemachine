@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.ActionHolders
-{
-    using System.Threading.Tasks;
+using System.Threading.Tasks;
 
+namespace StateMachine.AsyncMachine.ActionHolders
+{
     /// <summary>
     /// Holds a transition action.
     /// </summary>

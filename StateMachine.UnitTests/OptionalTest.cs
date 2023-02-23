@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts
-{
-    using FluentAssertions;
-    using StateMachine.Infrastructure;
-    using Xunit;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using Xunit;
 
+namespace StateMachine.UnitTests
+{
     public class OptionalTest
     {
         [Fact]

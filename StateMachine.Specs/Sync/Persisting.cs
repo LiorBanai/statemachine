@@ -16,20 +16,19 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using FakeItEasy;
-    using FluentAssertions;
-    using Infrastructure;
-    using Machine;
-    using Persistence;
-    using Specs;
-    using StateMachine.Extensions;
-    using Xbehave;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.Extensions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using StateMachine.Persistence;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class Persisting
     {
 #pragma warning disable SA1602 // Enumeration items should be documented

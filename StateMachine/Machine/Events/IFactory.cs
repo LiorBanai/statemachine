@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Events
-{
-    using System;
-    using ActionHolders;
-    using GuardHolders;
-    using States;
+using System;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.GuardHolders;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine.Events
+{
     public interface IFactory<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

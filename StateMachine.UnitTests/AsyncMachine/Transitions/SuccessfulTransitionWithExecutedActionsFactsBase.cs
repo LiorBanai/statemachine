@@ -16,18 +16,17 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Transitions
-{
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.ActionHolders;
-    using StateMachine.AsyncMachine.States;
-    using StateMachine.AsyncMachine.Transitions;
-    using Xunit;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.ActionHolders;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.Transitions
+{
     public abstract class SuccessfulTransitionWithExecutedActionsFactsBase : TransitionFactsBase
     {
         [Fact]

@@ -16,12 +16,12 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
-{
-    using System.Linq;
-    using System.Reflection;
-    using System.Runtime.CompilerServices;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.CompilerServices;
 
+namespace StateMachine
+{
     public static class MethodNameExtractor
     {
         public static string ExtractMethodNameOrAnonymous(MethodInfo methodInfo)

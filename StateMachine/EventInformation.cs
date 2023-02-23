@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
-{
-    using System;
+using System;
 
+namespace StateMachine
+{
     /// <summary>
     /// Container holding an event and its argument.
     /// </summary>

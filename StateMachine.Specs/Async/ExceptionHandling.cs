@@ -16,16 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using System;
-    using System.Threading.Tasks;
-    using AsyncMachine;
-    using AsyncMachine.Events;
-    using FluentAssertions;
-    using Specs;
-    using Xbehave;
+using System;
+using System.Threading.Tasks;
+using FluentAssertions;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.Events;
+using Xbehave;
 
+namespace StateMachine.Specs.Async
+{
     public class ExceptionHandling
     {
         private TransitionExceptionEventArgs<int, int> receivedTransitionExceptionEventArgs;

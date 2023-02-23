@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using FluentAssertions;
-    using Machine;
-    using Xbehave;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class StartStop
     {
         private const int A = 0;

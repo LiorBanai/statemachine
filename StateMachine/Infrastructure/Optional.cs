@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Infrastructure
+namespace StateMachine.Infrastructure
 {
     public class Optional<T>
     {

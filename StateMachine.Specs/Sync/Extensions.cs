@@ -14,13 +14,13 @@
 //   limitations under the License.
 // </copyright>
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using FakeItEasy;
-    using Machine;
-    using Machine.States;
-    using Xbehave;
+using FakeItEasy;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class Extensions
     {
         private const string Name = "machine";

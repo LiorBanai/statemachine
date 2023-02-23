@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using States;
-    using Syntax;
+using System;
+using System.Collections.Generic;
+using StateMachine.Machine.States;
+using StateMachine.Syntax;
 
+namespace StateMachine.Machine
+{
     public class HierarchyBuilder<TState, TEvent> :
         IHierarchySyntax<TState>,
         IInitialSubStateSyntax<TState>,

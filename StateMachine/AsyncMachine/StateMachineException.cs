@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
+using System;
 
+namespace StateMachine.AsyncMachine
+{
     public class StateMachineException : Exception
     {
         public StateMachineException(string message, Exception innerException)

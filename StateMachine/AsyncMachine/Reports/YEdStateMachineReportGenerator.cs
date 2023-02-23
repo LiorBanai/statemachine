@@ -16,18 +16,17 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Reports
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Globalization;
-    using System.IO;
-    using System.Linq;
-    using System.Xml.Linq;
-    using AsyncMachine;
-    using States;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Xml.Linq;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
 
+namespace StateMachine.AsyncMachine.Reports
+{
     /// <summary>
     /// generates a graph meta language file that can be read by yEd.
     /// </summary>

@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Events
-{
-    using System;
-    using System.Threading.Tasks;
-    using ActionHolders;
-    using GuardHolders;
-    using States;
+using System;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine.ActionHolders;
+using StateMachine.AsyncMachine.GuardHolders;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine.Events
+{
     public interface IFactory<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

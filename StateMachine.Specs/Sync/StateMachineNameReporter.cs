@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System.Collections.Generic;
-    using Machine;
-    using Machine.States;
+using System.Collections.Generic;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Specs.Sync
+{
     public class StateMachineNameReporter : IStateMachineReport<string, int>
     {
         public string StateMachineName { get; private set; }

@@ -16,11 +16,11 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs
-{
-    using System;
-    using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;
 
+namespace StateMachine.Specs
+{
     public static class Catch
     {
         public static Exception Exception(Action action)

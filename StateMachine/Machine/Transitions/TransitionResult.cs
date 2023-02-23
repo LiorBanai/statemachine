@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Transitions
-{
-    using System;
+using System;
 
+namespace StateMachine.Machine.Transitions
+{
     public class TransitionResult<TState>
         : ITransitionResult<TState>
         where TState : IComparable

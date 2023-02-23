@@ -1,7 +1,7 @@
 using System;
-using Appccelerate.StateMachine.Machine;
+using StateMachine.Machine;
 
-namespace Appccelerate.StateMachine.Samples
+namespace StateMachine.Samples
 {
     public class SimpleStateMachine
     {

@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncSyntax
+namespace StateMachine.AsyncSyntax
 {
     /// <summary>
     /// Defines the event syntax.

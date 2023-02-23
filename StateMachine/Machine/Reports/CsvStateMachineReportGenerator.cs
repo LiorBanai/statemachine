@@ -16,15 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Reports
-{
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-    using Machine;
-    using States;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine.Reports
+{
     /// <summary>
     /// Generator for csv reports of states and transitions of a state machine.
     /// </summary>

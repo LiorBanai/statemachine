@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.ActionHolders
-{
-    using System;
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.Machine.ActionHolders;
-    using Xunit;
+using System;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.Machine.ActionHolders;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.ActionHolders
+{
     public class ArgumentActionHolderTest
     {
         [Fact]

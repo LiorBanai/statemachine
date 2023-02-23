@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using States;
+using System;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Machine
+{
     public interface IImplicitAddIfNotAvailableStateDefinitionDictionary<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

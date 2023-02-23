@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Transitions
-{
-    using System;
-    using FakeItEasy;
-    using StateMachine.Machine;
-    using StateMachine.Machine.States;
-    using StateMachine.Machine.Transitions;
+using System;
+using FakeItEasy;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
 
+namespace StateMachine.UnitTests.Machine.Transitions
+{
     public class TransitionTestBase
     {
         public enum States

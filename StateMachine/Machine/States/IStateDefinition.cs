@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.States
-{
-    using System;
-    using System.Collections.Generic;
-    using ActionHolders;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.Transitions;
 
+namespace StateMachine.Machine.States
+{
     public interface IStateDefinition<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using States;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine
+{
     /// <summary>
     /// Responsible for entering the initial state of the state machine.
     /// All states up in the hierarchy are entered, too.

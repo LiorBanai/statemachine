@@ -16,17 +16,17 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Transitions
-{
-    using System.Collections.Generic;
-    using Extensions;
-    using FluentAssertions;
-    using StateMachine.Machine;
-    using StateMachine.Machine.ActionHolders;
-    using StateMachine.Machine.States;
-    using StateMachine.Machine.Transitions;
-    using Xunit;
+using System.Collections.Generic;
+using FluentAssertions;
+using StateMachine.Extensions;
+using StateMachine.Machine;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Transitions
+{
     public abstract class SuccessfulTransitionWithExecutedActionsTestBase : TransitionTestBase
     {
         [Fact]

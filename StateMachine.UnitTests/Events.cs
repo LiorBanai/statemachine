@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts
+namespace StateMachine.UnitTests
 {
     public enum Events
     {

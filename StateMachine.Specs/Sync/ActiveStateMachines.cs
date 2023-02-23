@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System.Threading;
-    using FluentAssertions;
-    using Machine;
-    using Xbehave;
+using System.Threading;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class ActiveStateMachines
     {
         [Scenario]

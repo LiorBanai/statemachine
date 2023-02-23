@@ -16,13 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.ActionHolders
-{
-    using System.Threading.Tasks;
-    using FluentAssertions;
-    using StateMachine.Machine.ActionHolders;
-    using Xunit;
+using FluentAssertions;
+using StateMachine.Machine.ActionHolders;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.ActionHolders
+{
     public class ParameterizedActionHolderFacts
     {
         [Fact]

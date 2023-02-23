@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
+using System;
 
+namespace StateMachine.Machine
+{
     public class Missable<T>
     {
         private T value;

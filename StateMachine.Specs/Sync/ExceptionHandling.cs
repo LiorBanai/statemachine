@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using System;
-    using FluentAssertions;
-    using Machine;
-    using Machine.Events;
-    using Xbehave;
+using System;
+using FluentAssertions;
+using StateMachine.Machine;
+using StateMachine.Machine.Events;
+using Xbehave;
 
+namespace StateMachine.Specs.Sync
+{
     public class ExceptionHandling
     {
         private TransitionExceptionEventArgs<int, int> receivedTransitionExceptionEventArgs;

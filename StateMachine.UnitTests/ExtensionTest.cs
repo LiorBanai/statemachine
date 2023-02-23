@@ -16,17 +16,17 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts
-{
-    using System;
-    using Extensions;
-    using FakeItEasy;
-    using Machine;
-    using StateMachine.Machine;
-    using StateMachine.Machine.States;
-    using StateMachine.Machine.Transitions;
-    using Xunit;
+using System;
+using FakeItEasy;
+using StateMachine.Extensions;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
+using StateMachine.UnitTests.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests
+{
     /// <summary>
     /// Tests that the extensions can interact with the state machine.
     /// </summary>

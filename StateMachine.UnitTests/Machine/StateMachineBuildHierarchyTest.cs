@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using System;
-    using FluentAssertions;
-    using StateMachine.Machine;
-    using Xunit;
+using System;
+using FluentAssertions;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     /// <summary>
     /// Tests hierarchy building in the <see cref="StateMachine{TState,TEvent}"/>.
     /// </summary>

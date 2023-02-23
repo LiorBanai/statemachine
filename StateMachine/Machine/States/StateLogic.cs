@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.States
-{
-    using System;
-    using ActionHolders;
-    using Transitions;
+using System;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.Transitions;
 
+namespace StateMachine.Machine.States
+{
     public class StateLogic<TState, TEvent>
         : IStateLogic<TState, TEvent>
         where TState : IComparable

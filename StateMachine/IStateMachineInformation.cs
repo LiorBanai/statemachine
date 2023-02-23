@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using Infrastructure;
+using System;
+using StateMachine.Infrastructure;
 
+namespace StateMachine
+{
     /// <summary>
     /// Provides information about a state machine.
     /// </summary>

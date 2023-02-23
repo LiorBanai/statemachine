@@ -14,14 +14,14 @@
 //   limitations under the License.
 // </copyright>
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using System.Diagnostics;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Globalization;
-    using System.Reflection;
+using System;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.Reflection;
 
+namespace StateMachine
+{
     /// <summary>
     /// Provides guard clauses.
     /// </summary>

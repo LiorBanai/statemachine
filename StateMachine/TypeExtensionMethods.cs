@@ -14,12 +14,12 @@
 //   limitations under the License.
 // </copyright>
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using System.Linq;
-    using System.Reflection;
+using System;
+using System.Linq;
+using System.Reflection;
 
+namespace StateMachine
+{
     public static class TypeExtensionMethods
     {
         /// <summary>

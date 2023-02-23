@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;
 
+namespace StateMachine.AsyncMachine
+{
     /// <summary>
     /// Interface to execute actions on all extensions of the event broker.
     /// </summary>

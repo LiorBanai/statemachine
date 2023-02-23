@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using System;
-    using Appccelerate.StateMachine.Machine;
-    using FluentAssertions;
-    using StateMachine.Infrastructure;
-    using Xunit;
+using System;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     /// <summary>
     /// Tests exception behavior of the <see cref="StateMachine{TState,TEvent}"/>.
     /// </summary>

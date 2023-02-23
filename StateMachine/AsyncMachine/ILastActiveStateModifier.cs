@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using Infrastructure;
+using System;
+using StateMachine.Infrastructure;
 
+namespace StateMachine.AsyncMachine
+{
     public interface ILastActiveStateModifier<TState>
         where TState : IComparable
     {

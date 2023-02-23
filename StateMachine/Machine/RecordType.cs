@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
+namespace StateMachine.Machine
 {
     /// <summary>
     /// Specifies the type of the record.

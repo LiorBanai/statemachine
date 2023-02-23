@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using FluentAssertions;
-    using StateMachine.Machine;
-    using StateMachine.Machine.States;
-    using Xunit;
+using System;
+using System.Collections.Generic;
+using FluentAssertions;
+using StateMachine.Machine;
+using StateMachine.Machine.States;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     public class StateDefinitionDictionaryTest
     {
         [Fact]

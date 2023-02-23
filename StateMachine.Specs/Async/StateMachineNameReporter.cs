@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Async
-{
-    using System.Collections.Generic;
-    using AsyncMachine;
-    using AsyncMachine.States;
+using System.Collections.Generic;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.Specs.Async
+{
     public class StateMachineNameReporter : IStateMachineReport<string, int>
     {
         public string StateMachineName { get; private set; }

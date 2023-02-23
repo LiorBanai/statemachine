@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Transitions
-{
-    using FakeItEasy;
-    using Xunit;
+using FakeItEasy;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Transitions
+{
     public class InternalTransitionTest : SuccessfulTransitionWithExecutedActionsTestBase
     {
         public InternalTransitionTest()

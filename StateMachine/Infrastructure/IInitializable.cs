@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Infrastructure
-{
-    using System;
+using System;
 
+namespace StateMachine.Infrastructure
+{
     public interface IInitializable<out T>
     {
         bool IsInitialized { get; }

@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.Transitions
-{
-    using System;
-    using System.Threading.Tasks;
-    using FakeItEasy;
-    using StateMachine.AsyncMachine;
-    using StateMachine.AsyncMachine.States;
-    using StateMachine.AsyncMachine.Transitions;
+using System;
+using System.Threading.Tasks;
+using FakeItEasy;
+using StateMachine.AsyncMachine;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
 
+namespace StateMachine.UnitTests.AsyncMachine.Transitions
+{
     public class TransitionFactsBase
     {
         public enum States

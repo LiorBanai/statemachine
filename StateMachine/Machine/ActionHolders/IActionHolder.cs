@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.ActionHolders
+namespace StateMachine.Machine.ActionHolders
 {
     /// <summary>
     /// Holds a transition action.

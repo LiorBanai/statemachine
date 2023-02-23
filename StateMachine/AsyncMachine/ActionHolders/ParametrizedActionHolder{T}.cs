@@ -16,11 +16,12 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.ActionHolders
+using System;
+using System.Reflection;
+using System.Threading.Tasks;
+
+namespace StateMachine.AsyncMachine.ActionHolders
 {
-    using System;
-    using System.Reflection;
-    using System.Threading.Tasks;
     using static MethodNameExtractor;
 
     public class ParametrizedActionHolder<T> : IActionHolder

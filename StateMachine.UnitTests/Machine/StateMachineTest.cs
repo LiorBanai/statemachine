@@ -16,17 +16,17 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.Linq;
-    using System.Text;
-    using FluentAssertions;
-    using StateMachine.Infrastructure;
-    using StateMachine.Machine;
-    using Xunit;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     /// <summary>
     /// Tests state machine initialization and state switching.
     /// </summary>

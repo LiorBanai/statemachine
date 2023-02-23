@@ -16,14 +16,14 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Infrastructure
-{
-    using System;
-    using FluentAssertions;
-    using StateMachine.Infrastructure;
-    using StateMachine.Machine;
-    using Xunit;
+using System;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using Xunit;
 
+namespace StateMachine.UnitTests.Infrastructure
+{
     public class InitializableTest
     {
         [Fact]

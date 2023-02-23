@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
+using System;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Provides functionalities to notify events.
     /// </summary>

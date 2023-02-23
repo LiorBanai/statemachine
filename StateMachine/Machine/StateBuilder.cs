@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine
-{
-    using System;
-    using System.Linq;
-    using Events;
-    using States;
-    using Syntax;
-    using Transitions;
+using System;
+using System.Linq;
+using StateMachine.Machine.Events;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
+using StateMachine.Syntax;
 
+namespace StateMachine.Machine
+{
     /// <summary>
     /// Provides operations to build a state machine.
     /// </summary>

@@ -14,18 +14,18 @@
 //   limitations under the License.
 // </copyright>
 
-namespace Appccelerate.StateMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading;
-    using System.Threading.Tasks;
-    using Extensions;
-    using Machine;
-    using Machine.Events;
-    using Persistence;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using StateMachine.Extensions;
+using StateMachine.Machine;
+using StateMachine.Machine.Events;
+using StateMachine.Persistence;
 
+namespace StateMachine
+{
     /// <summary>
     /// An active state machine.
     /// This state machine reacts to events on its own worker thread and the <see cref="Fire(TEvent,object)"/> or

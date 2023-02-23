@@ -1,9 +1,9 @@
-namespace Appccelerate.StateMachine.Facts
-{
-    using System.Threading.Tasks;
-    using Appccelerate.StateMachine.AsyncMachine;
-    using Xunit;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine;
+using Xunit;
 
+namespace StateMachine.UnitTests
+{
     // https://github.com/appccelerate/statemachine/issues/40
     public class DeadlockRepro
     {

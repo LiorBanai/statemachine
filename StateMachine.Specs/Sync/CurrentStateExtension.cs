@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs.Sync
-{
-    using Machine.States;
-    using StateMachine.Extensions;
+using StateMachine.Extensions;
+using StateMachine.Machine.States;
 
+namespace StateMachine.Specs.Sync
+{
     public class CurrentStateExtension : ExtensionBase<int, int>
     {
         public int CurrentState { get; private set; }

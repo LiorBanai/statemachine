@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using States;
+using System;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine
+{
     /// <summary>
     /// Provides information about the current transition.
     /// </summary>

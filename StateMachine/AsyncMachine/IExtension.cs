@@ -16,15 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
-    using Infrastructure;
-    using States;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
+using StateMachine.Infrastructure;
 
+namespace StateMachine.AsyncMachine
+{
     /// <summary>
     /// Extensions for a state machine have to implement this interface.
     /// </summary>

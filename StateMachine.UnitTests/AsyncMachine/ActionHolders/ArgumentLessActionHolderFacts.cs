@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.AsyncMachine.ActionHolders
-{
-    using System.Threading.Tasks;
-    using FluentAssertions;
-    using StateMachine.AsyncMachine.ActionHolders;
-    using Xunit;
+using System.Threading.Tasks;
+using FluentAssertions;
+using StateMachine.AsyncMachine.ActionHolders;
+using Xunit;
 
+namespace StateMachine.UnitTests.AsyncMachine.ActionHolders
+{
     public class ArgumentLessActionHolderFacts
     {
         [Fact]

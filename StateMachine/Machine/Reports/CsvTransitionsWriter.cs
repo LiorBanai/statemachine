@@ -16,16 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Reports
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
+
+namespace StateMachine.Machine.Reports
 {
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-
-    using States;
-    using Transitions;
-
     /// <summary>
     /// Writes the transitions of a state machine to a stream as csv.
     /// </summary>

@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.ActionHolders
-{
-    using FluentAssertions;
-    using StateMachine.Machine.ActionHolders;
-    using Xunit;
+using FluentAssertions;
+using StateMachine.Machine.ActionHolders;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.ActionHolders
+{
     public class ArgumentLessActionHolderFacts
     {
         [Fact]

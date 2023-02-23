@@ -16,10 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.ActionHolders
+using System;
+using System.Reflection;
+
+namespace StateMachine.Machine.ActionHolders
 {
-    using System;
-    using System.Reflection;
     using static MethodNameExtractor;
 
     public class ArgumentActionHolder<T> : IActionHolder
@@ -35,12 +36,12 @@ namespace Appccelerate.StateMachine.Machine.ActionHolders
         {
             T castArgument = default(T);
 
-            if (argument != Missing.Value && argument != null && !(argument is T))
+            if (argument != System.Reflection.Missing.Value && argument != null && !(argument is T))
             {
                 throw new ArgumentException(ActionHoldersExceptionMessages.CannotCastArgumentToActionArgument(argument, this.Describe()));
             }
 
-            if (argument != Missing.Value)
+            if (argument != System.Reflection.Missing.Value)
             {
                 castArgument = (T)argument;
             }

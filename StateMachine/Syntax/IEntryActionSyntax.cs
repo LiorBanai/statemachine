@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Syntax
-{
-    using System;
+using System;
 
+namespace StateMachine.Syntax
+{
     /// <summary>
     /// Defines the entry action syntax.
     /// </summary>

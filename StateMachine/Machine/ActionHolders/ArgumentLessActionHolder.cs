@@ -16,10 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.ActionHolders
+using System;
+using System.Reflection;
+
+namespace StateMachine.Machine.ActionHolders
 {
-    using System;
-    using System.Reflection;
     using static MethodNameExtractor;
 
     public class ArgumentLessActionHolder : IActionHolder

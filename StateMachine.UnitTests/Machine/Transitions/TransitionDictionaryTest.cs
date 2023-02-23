@@ -16,18 +16,18 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine.Transitions
-{
-    using System;
-    using System.Linq;
-    using FakeItEasy;
-    using FluentAssertions;
-    using StateMachine.Machine.ActionHolders;
-    using StateMachine.Machine.GuardHolders;
-    using StateMachine.Machine.States;
-    using StateMachine.Machine.Transitions;
-    using Xunit;
+using System;
+using System.Linq;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.Machine.ActionHolders;
+using StateMachine.Machine.GuardHolders;
+using StateMachine.Machine.States;
+using StateMachine.Machine.Transitions;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine.Transitions
+{
     public class TransitionDictionaryTest
     {
         [Fact]

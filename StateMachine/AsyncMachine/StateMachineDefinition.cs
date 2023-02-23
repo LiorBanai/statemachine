@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using States;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncMachine.Transitions;
 
+namespace StateMachine.AsyncMachine
+{
     public class StateMachineDefinition<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

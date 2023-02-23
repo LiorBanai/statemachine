@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Infrastructure
-{
-    using System;
-    using Machine;
+using System;
+using StateMachine.Machine;
 
+namespace StateMachine.Infrastructure
+{
     /// <summary>
     /// A value which can either be initialized or not.
     /// </summary>

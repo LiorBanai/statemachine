@@ -16,11 +16,11 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Transitions
-{
-    using System;
-    using System.Threading.Tasks;
+using System;
+using System.Threading.Tasks;
 
+namespace StateMachine.AsyncMachine.Transitions
+{
     public interface ITransitionLogic<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

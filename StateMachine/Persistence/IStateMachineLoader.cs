@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Persistence
-{
-    using System;
-    using System.Collections.Generic;
-    using Infrastructure;
+using System;
+using System.Collections.Generic;
+using StateMachine.Infrastructure;
 
+namespace StateMachine.Persistence
+{
     public interface IStateMachineLoader<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

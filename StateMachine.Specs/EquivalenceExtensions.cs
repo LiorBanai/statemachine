@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Specs
-{
-    using System.Collections.Generic;
-    using System.Linq;
-    using FluentAssertions;
-    using FluentAssertions.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using FluentAssertions;
+using FluentAssertions.Collections;
 
+namespace StateMachine.Specs
+{
     public static class EquivalenceExtensions
     {
         public static void IsEquivalentInOrder<T>(this GenericCollectionAssertions<T> genericCollectionAssertions, IList<T> other)

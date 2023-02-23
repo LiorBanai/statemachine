@@ -15,10 +15,12 @@
 //   limitations under the License.
 // </copyright>
 //-------------------------------------------------------------------------------
-namespace Appccelerate.StateMachine.Machine.GuardHolders
+
+using System;
+using System.Reflection;
+
+namespace StateMachine.Machine.GuardHolders
 {
-    using System;
-    using System.Reflection;
     using static MethodNameExtractor;
 
     /// <summary>

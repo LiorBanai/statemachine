@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using StateMachine.Machine;
-    using StateMachine.Syntax;
+using System;
+using System.Collections.Generic;
+using StateMachine.Machine;
+using StateMachine.Syntax;
 
+namespace StateMachine.UnitTests.Machine
+{
     public class StateDefinitionsBuilder<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

@@ -16,16 +16,15 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine.Transitions
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using StateMachine.AsyncMachine.ActionHolders;
+using StateMachine.AsyncMachine.GuardHolders;
+using StateMachine.AsyncMachine.States;
+
+namespace StateMachine.AsyncMachine.Transitions
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Globalization;
-
-    using ActionHolders;
-    using GuardHolders;
-    using States;
-
     public class TransitionDefinition<TState, TEvent> : ITransitionDefinition<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

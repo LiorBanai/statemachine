@@ -16,13 +16,13 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using AsyncSyntax;
-    using States;
+using System;
+using System.Collections.Generic;
+using StateMachine.AsyncMachine.States;
+using StateMachine.AsyncSyntax;
 
+namespace StateMachine.AsyncMachine
+{
     public class HierarchyBuilder<TState, TEvent> :
         IHierarchySyntax<TState>,
         IInitialSubStateSyntax<TState>,

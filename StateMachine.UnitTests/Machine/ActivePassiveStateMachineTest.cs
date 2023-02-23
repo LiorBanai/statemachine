@@ -16,20 +16,20 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Facts.Machine
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading;
-    using FakeItEasy;
-    using FluentAssertions;
-    using Persistence;
-    using StateMachine.Infrastructure;
-    using StateMachine.Machine;
-    using StateMachine.Machine.Events;
-    using Xunit;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using FakeItEasy;
+using FluentAssertions;
+using StateMachine.Infrastructure;
+using StateMachine.Machine;
+using StateMachine.Machine.Events;
+using StateMachine.Persistence;
+using Xunit;
 
+namespace StateMachine.UnitTests.Machine
+{
     /// <summary>
     /// Tests the <see cref="PassiveStateMachine{TState,TEvent}"/> and <see cref="ActiveStateMachine{TState,TEvent}"/> class.
     /// </summary>

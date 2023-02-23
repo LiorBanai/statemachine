@@ -16,10 +16,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.Machine.Events
-{
-    using System;
+using System;
 
+namespace StateMachine.Machine.Events
+{
     /// <summary>
     /// Provides information about a completed transition.
     /// </summary>

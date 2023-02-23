@@ -16,12 +16,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Collections.Generic;
-    using Transitions;
+using System;
+using System.Collections.Generic;
+using StateMachine.AsyncMachine.Transitions;
 
+namespace StateMachine.AsyncMachine
+{
     public interface ITransitionDictionary<TState, TEvent>
         where TState : IComparable
         where TEvent : IComparable

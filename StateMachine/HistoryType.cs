@@ -16,7 +16,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine
+namespace StateMachine
 {
     /// <summary>
     /// Defines the history behavior of a state (on re-entrance of a super state).

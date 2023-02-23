@@ -16,16 +16,16 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Appccelerate.StateMachine.AsyncMachine
-{
-    using System;
-    using System.Threading.Tasks;
-    using ActionHolders;
-    using Contexts;
-    using Events;
-    using GuardHolders;
-    using States;
+using System;
+using System.Threading.Tasks;
+using StateMachine.AsyncMachine.ActionHolders;
+using StateMachine.AsyncMachine.Contexts;
+using StateMachine.AsyncMachine.Events;
+using StateMachine.AsyncMachine.GuardHolders;
+using StateMachine.AsyncMachine.States;
 
+namespace StateMachine.AsyncMachine
+{
     /// <summary>
     /// Standard implementation of the state machine factory.
     /// </summary>
