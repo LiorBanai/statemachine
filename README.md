@@ -1,4 +1,13 @@
 [![.NET Core Desktop](https://github.com/LiorBanai/statemachine/actions/workflows/dotnet-core-desktop.yml/badge.svg)](https://github.com/LiorBanai/statemachine/actions/workflows/dotnet-core-desktop.yml)
+<a href="https://github.com/LiorBanai/statemachine/issues">
+    <img src="https://img.shields.io/github/issues/LiorBanai/statemachine"  alt="Issues"/>
+</a> ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/LiorBanai/statemachine)
+<a href="https://github.com/LiorBanai/statemachine/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/LiorBanai/statemachine"  alt="License"/>
+</a>
+[![Nuget](https://img.shields.io/nuget/v/HDF5-CSharp)](https://www.nuget.org/packages/HDF5-CSharp/)
+[![Nuget](https://img.shields.io/nuget/dt/HDF5-CSharp)](https://www.nuget.org/packages/HDF5-CSharp/) [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?business=MCP57TBRAAVXA&no_recurring=0&item_name=Support+Open+source+Projects+%28Analogy+Log+Viewer%2C+HDF5-CSHARP%2C+etc%29&currency_code=USD) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F77IVQT)
+
 ## Features
 
 - use enums, ints, strings or your own class for states and events - resulting in single class state machines.
