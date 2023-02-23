@@ -2,10 +2,17 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>net48;net471;net7.0-windows;net6.0-windows</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\StateMachine\StateMachine.csproj" />
 	</ItemGroup>
-
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net48' or '$(TargetFramework)' == 'net471' ">
+		<PackageReference Include="PolySharp" Version="1.12.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 </Project>
