@@ -10,6 +10,8 @@
 		<Authors>LiorBanai</Authors>
 		<Company>LiorBanai</Company>
 		<Product>LiorBanai.StateMachine</Product>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
