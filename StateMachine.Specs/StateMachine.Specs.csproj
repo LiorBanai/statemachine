@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net48;net471;net7.0-windows;net6.0-windows</TargetFrameworks>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Title>LiorBanai.StateMachine.Specification</Title>
+		<Copyright>Copyright © 2023</Copyright>
+		<Authors>LiorBanai</Authors>
+		<Company>LiorBanai</Company>
+		<Product>LiorBanai.StateMachine</Product>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="stylecop.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="FakeItEasy" Version="7.3.1" />
+	  <PackageReference Include="FluentAssertions" Version="5.8.0" />
+	  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+	  <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Xbehave.Core" Version="2.4.1" />
+	  <PackageReference Include="xunit" Version="2.4.0" />
+	  <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\StateMachine\StateMachine.csproj" />
+	</ItemGroup>
+</Project>

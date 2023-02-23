@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appccelerate.StateMachine.Facts", "Appccelerate.StateMachine.Facts\Appccelerate.StateMachine.Facts.csproj", "{F206C6F3-01CD-4D81-8C2A-C1AB4AC8100E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine.UnitTests", "StateMachine.UnitTests\StateMachine.UnitTests.csproj", "{F206C6F3-01CD-4D81-8C2A-C1AB4AC8100E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appccelerate.StateMachine.Specs", "Appccelerate.StateMachine.Specs\Appccelerate.StateMachine.Specs.csproj", "{B6DC7BA9-3729-45A4-AAD6-8E38F0C033F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine.Specs", "StateMachine.Specs\StateMachine.Specs.csproj", "{B6DC7BA9-3729-45A4-AAD6-8E38F0C033F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appccelerate.StateMachine", "Appccelerate.StateMachine\Appccelerate.StateMachine.csproj", "{3B998204-8D0E-413D-B2C1-6F0E5C5E0E1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine", "StateMachine\StateMachine.csproj", "{3B998204-8D0E-413D-B2C1-6F0E5C5E0E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appccelerate.StateMachine.Samples", "Appccelerate.StateMachine.Samples\Appccelerate.StateMachine.Samples.csproj", "{A3317C84-EF68-45AD-9F91-E6412BDB85EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine.Samples", "StateMachine.Samples\StateMachine.Samples.csproj", "{A3317C84-EF68-45AD-9F91-E6412BDB85EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

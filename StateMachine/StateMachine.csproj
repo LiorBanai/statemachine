@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net48;net471;net7.0-windows;net6.0-windows</TargetFrameworks>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Title>LiorBanai.StateMachine</Title>
+		<Copyright>Copyright © 2023</Copyright>
+		<Authors>LiorBanai</Authors>
+		<Company>LiorBanai</Company>
+		<Product>LiorBanai.StateMachine</Product>
+		<Version>0.1.0</Version>
+		<LangVersion>latest</LangVersion>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<CodeAnalysisRuleSet>../Analyzers.Productive.ruleset</CodeAnalysisRuleSet>	
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<RepositoryUrl>https://github.com/LiorBanai/statemachine</RepositoryUrl>
+		<description>
+			Hierarchical state machine with fluent definition syntax
+			Features:
+			states and events can be defined with enums, strings or ints - resulting in single class state machines,
+			actions on transitions, entry and exit actions, transition guards,
+			hierarchical with different history behaviors to initialize state always to same state or last active state,
+			fluent definition interface,
+			synchronous/asynchronous state machine (passive state machine handles state transitions synchronously, active state machine handles state transitions asynchronously on the worker thread of the state machine),
+			extensible thorough logging,
+			state machine report for description of state machine (csv, yEd)
+		</description>
+		<PackageReleaseNotes>
+		</PackageReleaseNotes>
+		<PackageTags>LiorBanai state-machine</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="JetBrains.Annotations" Version="2022.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="stylecop.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<AdditionalFiles Include="stylecop.json" />
+	</ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<NoWarn>$(NoWarn),SA0001</NoWarn>
+	</PropertyGroup>
+
+	<!-- license -->
+	<ItemGroup>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Machine\Reports\" />
+	</ItemGroup>
+
+
+</Project>

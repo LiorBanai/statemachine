@@ -5,7 +5,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Appccelerate.StateMachine\Appccelerate.StateMachine.csproj" />
+	  <ProjectReference Include="..\StateMachine\StateMachine.csproj" />
 	</ItemGroup>
 
 </Project>
