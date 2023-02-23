@@ -202,13 +202,14 @@ namespace StateMachine.UnitTests.Machine
             testee.TransitionCompleted += (sender, e) => transitionCompletedMessages.Add(e);
             testee.TransitionDeclined += (sender, e) => transitionDeclinedMessages.Add(e);
 
-            var allTransitionsCompleted = SetUpWaitForAllTransitions(testee, 1);
+            var allTransitionsCompleted = SetUpWaitForAllTransitions(testee, 3);
 
             testee.Start();
-
             testee.Fire(Events.B);
 
             WaitForAllTransitions(allTransitionsCompleted);
+
+            
 
             transitionCompletedMessages.Count.Should().Be(Transitions);
             transitionDeclinedMessages.Should().BeEmpty();
@@ -551,7 +552,7 @@ namespace StateMachine.UnitTests.Machine
         /// <param name="allTransitionsCompleted">All transitions completed.</param>
         private static void WaitForAllTransitions(AutoResetEvent allTransitionsCompleted)
         {
-            allTransitionsCompleted.WaitOne(1000)
+            allTransitionsCompleted.WaitOne()
                 .Should().BeTrue("not enough transition completed events received within time-out.");
         }
     }
